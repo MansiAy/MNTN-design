@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    /* height: 100vh; */
+    width: 100vw;
+    position: relative;
+    overflow-x:auto;
+}
+#first{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* overflow: hidden; */
+}
+#fs{
+    height: 150vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.227);
+    position: absolute;
+    z-index: 99999999;
+}
+#nav{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    z-index: 999999;
+}
+#one{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#one h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "playfair display";
+
+}
+#two{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#two h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#three{
+    height: 100%;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 90px;
+}
+#three h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#three i{
+    font-size: 28px;
+    
+}
+/* #center-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+#pic1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+#pic2{
+    height: 160%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+#pic3{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    top: 62%;
+}
+#center-text{
+    height: 30%;
+    width: 60%;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#line{
+ height: 50px;
+ width: 100%;
+ display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    color: #fddc88;
+}
+#line h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+#text{
+   height: 60%;
+   width: 100%;
+   
+
+}
+#text h1{
+    font-size: 5.5vw;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "playfair display";
+    color: #fff;
+}
+#scroll{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffff;
+
+}
+#scroll h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+#scroll img{
+    /* font-size: 30px; */
+    height: 40px;
+    width: 50px;
+}
+hr{
+    color: #fddc88;
+    background-color: #fddc88;
+    width: 70px;
+    height: 2px;
+    border: none;
+   margin-bottom: 8px;
+}
+
+#second{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0B1D25;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    position: relative;
+
+}
+#text-div{
+    height: 59%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: space-between;
+}
+#number h1{
+    position: absolute;
+    font-size: 13vw;
+    top: 15%;
+    transform: translate(-50%);
+    color: rgba(255, 255, 255, 0.323);
+}
+#heading h1{
+    font-size: 4.5vw;
+    font-family: "playfair display";
+    line-height: 1.23;
+    color: #fff;
+    font-weight: 500;
+}
+#para p{
+    line-height: 1.8;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+#read {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+    color: #D6BA75;
+
+}
+#read h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+#read img{
+    /* font-size: 30px; */
+    height: 30px;
+    width: 30px;
+}
+
+#image-div{
+    height: 80%;
+    width: 35%;
+    background-color: rgb(57, 72, 72);
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#third{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0B1D25;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+#fourth{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0B1D25;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#fifth{
+    height: 80vh;
+    width: 100vw;
+    background-color:#0B1D25;
+    position: relative;
+}
+#last-part{
+    width: 80%;
+    height: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    display: flex;
+    color: #fff;
+}
+#left-part{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+#column1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+#column1 h2{
+    font-size: 32px;
+    font-family: "playfair display";
+}
+#column1 h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+   margin-top: -70px;
+}
+#column1 p{
+    font-size: 16px;
+    width: 110%;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.475);
+}
+#column1 span{
+    border-bottom:1.5px solid rgba(139, 138, 138, 0.525);
+ 
+}
+#right-part{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#column2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+#column2 h2{
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+#column2 h3{
+    font-size: 15px;
+    font-weight: 400;
+    /* padding: 10px;
+    text-align: left; */
+}
+#column3{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+#column3 h2{
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+#column3 h3{
+    font-size: 15px;
+    font-weight: 400;
+}
